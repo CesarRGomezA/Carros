@@ -14,6 +14,8 @@
 		3D12708623356A7F0021F356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D12708423356A7F0021F356 /* LaunchScreen.storyboard */; };
 		3D12709123356A7F0021F356 /* CarrosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12709023356A7F0021F356 /* CarrosTests.swift */; };
 		3D12709C23356A7F0021F356 /* CarrosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12709B23356A7F0021F356 /* CarrosUITests.swift */; };
+		3D1270AA23356C6E0021F356 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1270A923356C6E0021F356 /* Carro.swift */; };
+		3D1270AC23356F510021F356 /* CeldaCarroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1270AB23356F510021F356 /* CeldaCarroController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3D12709723356A7F0021F356 /* CarrosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D12709B23356A7F0021F356 /* CarrosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosUITests.swift; sourceTree = "<group>"; };
 		3D12709D23356A7F0021F356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1270A923356C6E0021F356 /* Carro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
+		3D1270AB23356F510021F356 /* CeldaCarroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCarroController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3D12708223356A7F0021F356 /* Assets.xcassets */,
 				3D12708423356A7F0021F356 /* LaunchScreen.storyboard */,
 				3D12708723356A7F0021F356 /* Info.plist */,
+				3D1270A923356C6E0021F356 /* Carro.swift */,
+				3D1270AB23356F510021F356 /* CeldaCarroController.swift */,
 			);
 			path = Carros;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D12707E23356A770021F356 /* ViewController.swift in Sources */,
+				3D1270AC23356F510021F356 /* CeldaCarroController.swift in Sources */,
+				3D1270AA23356C6E0021F356 /* Carro.swift in Sources */,
 				3D12707C23356A770021F356 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
